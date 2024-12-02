@@ -273,7 +273,7 @@ body {
     }
     .project-box{
         background-color: rgba(247, 247, 247, 0.774); 
-        border-radius: 30px;
+        border-radius: 5px;
         padding: 30px;
         margin: 3rem 0px;
         width: auto;
