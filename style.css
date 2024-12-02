@@ -19,10 +19,6 @@ body {
 } 
 :lang(en){
     font-family: 'Courier New', Courier, monospace;
-
-
-
-
 }/******** navbar ********/
 .nav-bar{
     display: flex;
