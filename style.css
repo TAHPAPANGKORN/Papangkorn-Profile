@@ -199,8 +199,9 @@ body {
     
 }
 .project-box{
-    background-color: rgba(247, 247, 247, 0.774); 
-    border-radius: 30px;
+    background-color:rgb(227, 227, 227,0.2); 
+    border: 1px solid #ddd;
+    border-radius: 20px;
     padding: 2rem 0rem 5rem 0rem;
     margin: 40px 250px;
     width: 1400px;
