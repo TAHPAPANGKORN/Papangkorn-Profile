@@ -83,15 +83,16 @@ body {
     text-align: center;
     color: black;
 }
+.main a {
+    cursor: default;
+}
 .main img{
-    
     margin-top: 5%;
     width: 20%;
     border-radius: 25px;
 }
 
-#dodge-button {
-    
+#dodge-button {  
     border-radius: 10px;
     border: none;
     padding: 10px 20px;
