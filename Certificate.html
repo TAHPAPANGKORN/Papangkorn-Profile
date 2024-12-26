@@ -32,7 +32,7 @@
                 <div class="card">
                     <img src="certificate/chatgpt.jpg" alt="certificate">
                     <div class="text">
-                        <h2>ChatGPT Competitive</h2>
+                        <h2 id="show-name">ChatGPT Competitive</h2>
                         <p>At Burapha<br>1st place</p>
                         <div class="show-img">
                             <a href="#" class="show-modal" data-img="certificate/chatgpt.jpg">click for show image</a>
@@ -44,7 +44,7 @@
                 <div class="card">
                     <img src="certificate/Dobot.jpg" alt="certificate">
                     <div class="text">
-                        <h2>Dobot Competitive</h2>
+                        <h2 id="show-name">Dobot Competitive</h2>
                         <p>At Burapha<br>2nd place</p>
                         <div class="show-img">
                              <a href="#" class="show-modal" data-img="certificate/Dobot.jpg">click for show image</a> 
@@ -55,7 +55,7 @@
                 <div class="card">
                     <img src="certificate/boat.jpg" alt="certificate">
                     <div class="text">
-                        <h2>Build a boat<br>Competitive</h2>
+                        <h2 id="show-name">BuildBoat<br>Competitive</h2>
                         <p>At Burapha<br>3st place</p>
                         <div class="show-img">
                             <a href="#" class="show-modal" data-img="certificate/boat.jpg">click for show image</a> 
@@ -68,7 +68,7 @@
                 <div class="card">
                     <img src="certificate/art 1.jpg" alt="certificate">
                     <div class="text">
-                        <h2>AutomaticRobot<br>Competitive</h2>
+                        <h2 id="show-name">AutomaticRobot<br>Competitive</h2>
                         <p>At Chonburi<br>1st place</p>
                         <div class="show-img">
                             <a href="#" class="show-modal" data-img="certificate/art 1.jpg">click for show image</a> 
@@ -79,7 +79,7 @@
                 <div class="card">
                     <img src="certificate/gold art.jpg" alt="certificate">
                     <div class="text">
-                        <h2>AutomaticRobot<br>National<br>Competitive</h2>
+                        <h2 id="show-name">AutomaticRobot<br>National<br>Competitive</h2>
                         <p>At Ratchaburi<br>Gold medal</p>
                         <div class="show-img">
                             <a href="#" class="show-modal" data-img="certificate/gold art.jpg">click for show image</a> 
@@ -90,7 +90,7 @@
                 <div class="card">
                     <img src="certificate/webot_page-0001.jpg" alt="certificate">
                     <div class="text">
-                        <h2>Webot Competitive</h2>
+                        <h2 id="show-name">Webot Competitive</h2>
                         <p>Online<br>Gold medal</p>
                         <div class="show-img">
                             <a href="#" class="show-modal" data-img="certificate/webot_page-0001.jpg">click for show image</a> 
@@ -103,7 +103,7 @@
                 <div class="card">
                     <img src="certificate/71 2nd.jpg" alt="certificate">
                     <div class="text">
-                        <h2>AutomaticRobot<br>Competitive</h2>
+                        <h2 id="show-name">AutomaticRobot<br>Competitive</h2>
                         <p>At Chonburi<br>2nd place</p>
                         <div class="show-img">
                             <a href="#" class="show-modal" data-img="certificate/71 2nd.jpg">click for show image</a> 
@@ -114,7 +114,7 @@
                 <div class="card">
                     <img src="certificate/71 3th.jpg" alt="certificate">
                     <div class="text">
-                        <h2>AutomaticRobot<br>Competitive</h2>
+                        <h2 id="show-name">AutomaticRobot<br>Competitive</h2>
                         <p>At Chonburi<br>3th place</p>
                         <div class="show-img">
                             <a href="#" class="show-modal" data-img="certificate/71 3th.jpg">click for show image</a> 
@@ -125,7 +125,7 @@
                 <div class="card">
                     <img src="certificate/Slide35.PNG" alt="certificate">
                     <div class="text">
-                        <h2>Python Training</h2>
+                        <h2 id="show-name">Python Training</h2>
                         <p>Online<br></p>
                         <div class="show-img">
                             <a href="#" class="show-modal" data-img="certificate/Slide35.PNG">click for show image</a> 
@@ -138,7 +138,7 @@
                 <div class="card">
                     <img src="certificate/basic com.png" alt="certificate">
                     <div class="text">
-                        <h2>Basic Computer</h2>
+                        <h2 id="show-name">Basic Computer</h2>
                         <p>Online mooc</p>
                         <div class="show-img">
                             <a href="#" class="show-modal" data-img="certificate/basic com.png">click for show image</a> 
@@ -149,7 +149,7 @@
                 <div class="card">
                     <img src="certificate/css.png" alt="certificate">
                     <div class="text">
-                        <h2>Basic CSS</h2>
+                        <h2 id="show-name">Basic CSS</h2>
                         <p>Online mooc</p>
                         <div class="show-img">
                             <a href="#" class="show-modal" data-img="certificate/css.png">click for show image</a>    
@@ -160,7 +160,7 @@
                 <div class="card">
                     <img src="certificate/pythonself learn.png" alt="certificate">
                     <div class="text">
-                        <h2>Python Self Training</h2>
+                        <h2 id="show-name">Python Self Training</h2>
                         <p>Online mooc<br></p>
                         <div class="show-img">
                             <a href="#" class="show-modal" data-img="certificate/pythonself learn.png">click for show image</a> 
@@ -175,6 +175,7 @@
     <!-- Modal -->
     <div id="image-modal" class="modal">
         <span class="close" id="close-modal">&times;</span>
+        <h1 class="certiName" id="certi-name">Certificate Name</h1>
         <img class="modal-content" id="modal-image" alt="Certificate">
         <div id="caption"></div>
     </div>
@@ -186,20 +187,26 @@
             <p>67160072@go.buu.ac.th</p>
         </div>
     </footer>
+
     <script>
         // JavaScript use for show image
         document.addEventListener("DOMContentLoaded", () => {
             const modal = document.getElementById("image-modal");
             const modalImg = document.getElementById("modal-image");
+            const certiName = document.getElementById("certi-name");
             const showLinks = document.querySelectorAll(".show-modal");
             const closeBtn = document.querySelector(".close");
+            
+            
 
             showLinks.forEach((link) => {
                 link.addEventListener("click", (event) => {
                     event.preventDefault(); // Prevent default anchor behavior
                     const imgSrc = link.getAttribute("data-img");
+                    const name = link.closest(".text").querySelector("#show-name").textContent;
                     modal.style.display = "block";
                     modalImg.src = imgSrc;
+                    certiName.textContent = name;
                 });
             });
 
@@ -212,6 +219,13 @@
                     modal.style.display = "none";
                 }
             });
+
+            window.addEventListener("keydown", (event) => {
+                if (event.key === "Escape") {
+                    modal.style.display = "none";
+                }
+            });
+
         });
     </script>
 </body>
